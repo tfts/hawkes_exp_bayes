@@ -1,0 +1,4 @@
+- data source is table 6 of 'Y. Ogata, H. Akaike, and K. Katsura, "The application of linear intensity models to the investigation of causal relations between a point process and another stochastic process," Annals of the Institute of Statistical Mathematics, 1982.'
+- each timestamp corresponds to #days after 01/01/1924
+- since fig7 of that paper shows only events starting from the first Hida earthquake, but there are a few Kanto events before that, I provide 2 versions of the data: one with those events ("ogata1982.txt") and the other without ("ogata1982_fig7.txt")
+- ogata* txt file format: each line corresponds to one dimension with the dimension name followed by the timestamps, e.g. "Hida,days1,days2,...\nKanto,days1,days2,..."
